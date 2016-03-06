@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Numbers Statistics Calculator</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column input">
+        <h4>Enter Your Numbers</h4>
+        <form id="NumberInput" action="#" method="post">
+          <label for="number1">Number:</label>
+          <input type="number" id="number1" name="number1" value="70" />
+          <label for="number2">Number:</label>
+          <input type="number" id="number2" name="number2" value="3.7" />
+          <label for="number3">Number:</label>
+          <input type="number" id="number3" name="number3" value="299" />
+          <label for="number4">Number:</label>
+          <input type="number" id="number4" name="number4" value="35" />
+          <label for="number5">Number:</label>
+          <input type="number" id="number5" name="number5" value="1000" />
+          <br>
+          <input type="submit" value="Calculate">
+        </form>
+      </div>
+      <div class="one-half column output">
+        <h4>Statistics</h4>
+        <p>Least: <span id="least"></span></p>
+        <p>Greatest: <span id="greatest"></span></p>
+        <p>Mean: <span id="mean"></span></p>
+        <p>Sum: <span id="sum"></span></p>
+        <p>Product: <span id="product"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/numbers.js"></script>
+</body>
+</html>
