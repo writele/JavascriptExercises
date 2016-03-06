@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Numbers Statistics Calculator</title>
+  <title>Factorial Calculator</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -34,29 +34,18 @@
   <div class="container">
     <div class="row">
       <div class="one-half column input">
-        <h4>Enter Your Numbers</h4>
+        <h4>Enter Your Number</h4>
         <form id="NumberInput" action="#" method="post">
           <label for="number1">Number:</label>
           <input type="number" id="number1" name="number1" value="" />
-          <label for="number2">Number:</label>
-          <input type="number" id="number2" name="number2" value="" />
-          <label for="number3">Number:</label>
-          <input type="number" id="number3" name="number3" value="" />
-          <label for="number4">Number:</label>
-          <input type="number" id="number4" name="number4" value="" />
-          <label for="number5">Number:</label>
-          <input type="number" id="number5" name="number5" value="" />
           <br>
           <input type="submit" value="Calculate">
         </form>
       </div>
       <div class="one-half column output">
-        <h4>Statistics</h4>
-        <p>Least: <span id="least"></span></p>
-        <p>Greatest: <span id="greatest"></span></p>
-        <p>Mean: <span id="mean"></span></p>
-        <p>Sum: <span id="sum"></span></p>
-        <p>Product: <span id="product"></span></p>
+        <h4>Factorial</h4>
+        <p id="factorialOutput">
+        </p>
       </div>
     </div>
   </div>
@@ -65,6 +54,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="javascript/ui.js"></script>
-  <script type="text/javascript" src="javascript/numbers.js"></script>
+  <script type="text/javascript" src="javascript/factorial.js"></script>
 </body>
 </html>

@@ -45,13 +45,6 @@ function calculateProductNumber(arr) {
   return product;
 }
 
-
-function getValue(id) {
-  var value = document.getElementById(id).value;
-  return value;
-}
-
-
 function getValues() {
   number1 = getValue("number1");
   number2 = getValue("number2");
@@ -81,32 +74,32 @@ function setOutput() {
   productNumber = calculateProductNumber(numbers);
 }
 
-function clearOutput() {
-  $("span#least").html("");
-  $("span#greatest").html("");
-  $("span#mean").html("");
-  $("span#sum").html("");
-  $("span#product").html("");
+function clearOutputNumbers() {
+  clearOutput("span#least");
+  clearOutput("span#greatest");
+  clearOutput("span#mean");
+  clearOutput("span#sum");
+  clearOutput("span#product");
 }
 
-function appendOutput() { 
-  $("span#least").append(leastNumber);
-  $("span#greatest").append(greatestNumber);
-  $("span#mean").append(meanNumber);
-  $("span#sum").append(sumNumber);
-  $("span#product").append(productNumber);
+function appendOutputNumbers() { 
+  appendOutput("span#least", leastNumber);
+  appendOutput("span#greatest", greatestNumber);
+  appendOutput("span#mean", meanNumber);
+  appendOutput("span#sum", sumNumber);
+  appendOutput("span#product", productNumber);
+}
+
+function runProgram() {
+  clearOutput();
+  getValues();
+  pushValuestoArray();
+  setOutput();
+  appendOutputNumbers();
+  clearValues();
 }
 
 
-$(":submit").on("click", function(event) {
-    event.preventDefault();
-    clearOutput();
-    getValues();
-    pushValuestoArray();
-    setOutput();
-    appendOutput();
-    clearValues();
-});
 
 
 
