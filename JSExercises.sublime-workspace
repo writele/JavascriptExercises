@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"num",
+				"numberInput2"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bottom",
+				"border-bottom"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
 				"is",
 				"isPalindrome"
 			],
@@ -26,10 +54,6 @@
 			[
 				"nu",
 				"numberInput2"
-			],
-			[
-				"num",
-				"numberInput1"
 			],
 			[
 				"fiz",
@@ -92,10 +116,6 @@
 				"function"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
 				"margi",
 				"margin-left"
 			],
@@ -144,10 +164,6 @@
 				"totalDue"
 			],
 			[
-				"pa",
-				"payInvoice"
-			],
-			[
 				"new",
 				"new_unpaid"
 			],
@@ -169,10 +185,6 @@
 			],
 			[
 				"marg",
-				"margin"
-			],
-			[
-				"ma",
 				"margin"
 			],
 			[
@@ -202,10 +214,6 @@
 			[
 				"mar",
 				"margin"
-			],
-			[
-				"te",
-				"text-decoration"
 			],
 			[
 				"min",
@@ -512,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 1524,
+				"buffer_size": 613,
 				"line_ending": "Unix"
 			}
 		},
@@ -523,7 +531,7 @@
 			"file": "numbers.html",
 			"settings":
 			{
-				"buffer_size": 2501,
+				"buffer_size": 2899,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +539,7 @@
 			"file": "factorial.html",
 			"settings":
 			{
-				"buffer_size": 1827,
+				"buffer_size": 2183,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +547,7 @@
 			"file": "fizzbuzz.html",
 			"settings":
 			{
-				"buffer_size": 1988,
+				"buffer_size": 2366,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +555,7 @@
 			"file": "palindrome.html",
 			"settings":
 			{
-				"buffer_size": 1810,
+				"buffer_size": 2175,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,7 +563,7 @@
 			"file": "javascript/numbers.js",
 			"settings":
 			{
-				"buffer_size": 2094,
+				"buffer_size": 2366,
 				"line_ending": "Unix"
 			}
 		},
@@ -563,7 +571,7 @@
 			"file": "javascript/factorial.js",
 			"settings":
 			{
-				"buffer_size": 390,
+				"buffer_size": 549,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,7 +579,7 @@
 			"file": "javascript/fizzbuzz.js",
 			"settings":
 			{
-				"buffer_size": 875,
+				"buffer_size": 1223,
 				"line_ending": "Unix"
 			}
 		},
@@ -579,7 +587,7 @@
 			"file": "javascript/ui.js",
 			"settings":
 			{
-				"buffer_size": 316,
+				"buffer_size": 438,
 				"line_ending": "Unix"
 			}
 		},
@@ -624,6 +632,7 @@
 	},
 	"file_history":
 	[
+		"/Users/elepalmer/Web Development/Coder Foundry/JavascriptExercises/index.html",
 		"/Users/elepalmer/Web Development/Coder Foundry/JavascriptExercises/javascript/ui.js",
 		"/Users/elepalmer/Web Development/Coder Foundry/JavascriptExercises/numbers.html",
 		"/Users/elepalmer/Web Development/Coder Foundry/JavascriptExercises/css/main.css",
@@ -750,8 +759,7 @@
 		"/Users/elepalmer/Web Development/RubyOnRails/SinatraTest/views/main.css",
 		"/Users/elepalmer/Web Development/RubyOnRails/SinatraTest/views/layout.erb.html",
 		"/Users/elepalmer/Web Development/RubyOnRails/SinatraTest/views/special/special.erb",
-		"/Users/elepalmer/Web Development/RubyOnRails/SinatraTest/test.rb",
-		"/Users/elepalmer/GitHub/BlackjackWebApp/views/layout.erb"
+		"/Users/elepalmer/Web Development/RubyOnRails/SinatraTest/test.rb"
 	],
 	"find":
 	{
@@ -819,28 +827,28 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "css/main.css",
 					"settings":
 					{
-						"buffer_size": 1524,
+						"buffer_size": 613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								464,
+								464
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -855,15 +863,15 @@
 					"file": "numbers.html",
 					"settings":
 					{
-						"buffer_size": 2501,
+						"buffer_size": 2899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								863,
+								863
 							]
 						],
 						"settings":
@@ -873,7 +881,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -883,15 +891,15 @@
 					"file": "factorial.html",
 					"settings":
 					{
-						"buffer_size": 1827,
+						"buffer_size": 2183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1407,
+								1407
 							]
 						],
 						"settings":
@@ -901,7 +909,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 284.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -911,15 +919,15 @@
 					"file": "fizzbuzz.html",
 					"settings":
 					{
-						"buffer_size": 1988,
+						"buffer_size": 2366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1359,
-								1359
+								1089,
+								1089
 							]
 						],
 						"settings":
@@ -929,7 +937,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 314.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -939,15 +947,15 @@
 					"file": "palindrome.html",
 					"settings":
 					{
-						"buffer_size": 1810,
+						"buffer_size": 2175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1379,
-								1379
+								1743,
+								1743
 							]
 						],
 						"settings":
@@ -957,7 +965,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 104.0,
+						"translation.y": 284.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -967,15 +975,15 @@
 					"file": "javascript/numbers.js",
 					"settings":
 					{
-						"buffer_size": 2094,
+						"buffer_size": 2366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								901,
-								836
+								1979,
+								1979
 							]
 						],
 						"settings":
@@ -985,7 +993,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 392.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -995,15 +1003,15 @@
 					"file": "javascript/factorial.js",
 					"settings":
 					{
-						"buffer_size": 390,
+						"buffer_size": 549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								282,
-								282
+								355,
+								355
 							]
 						],
 						"settings":
@@ -1021,15 +1029,15 @@
 					"file": "javascript/fizzbuzz.js",
 					"settings":
 					{
-						"buffer_size": 875,
+						"buffer_size": 1223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								796,
+								782
 							]
 						],
 						"settings":
@@ -1049,15 +1057,15 @@
 					"file": "javascript/ui.js",
 					"settings":
 					{
-						"buffer_size": 316,
+						"buffer_size": 438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								138,
+								138
 							]
 						],
 						"settings":
@@ -1088,7 +1096,9 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

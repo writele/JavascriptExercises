@@ -1,5 +1,5 @@
-var factorialInput = 0;
-var factorialOutput = 0;
+var factorialInput;
+var factorialOutput;
 
 
 function factorialize(factorial) {
@@ -14,5 +14,11 @@ function runProgram() {
   clearOutput("p#factorialOutput");
   factorialInput = getValue("number1");
   factorialOutput = factorialize(factorialInput);
-  appendOutput("p#factorialOutput", factorialOutput);
+  if (isValid(factorialInput)) {
+    appendOutput("p#factorialOutput", factorialOutput);
+  }
+  else {
+    appendOutput("p#factorialOutput", "There's been an error. Please make sure you've entered a valid number.")
+  }
+  
 };

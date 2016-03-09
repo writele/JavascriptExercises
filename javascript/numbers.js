@@ -75,6 +75,7 @@ function setOutput() {
 }
 
 function clearOutputNumbers() {
+  clearOutput("span#error");
   clearOutput("span#least");
   clearOutput("span#greatest");
   clearOutput("span#mean");
@@ -95,7 +96,12 @@ function runProgram() {
   getValues();
   pushValuestoArray();
   setOutput();
-  appendOutputNumbers();
+  if (isValid(number1) && isValid(number2) && isValid(number3) && isValid(number4) && isValid(number5)) {
+    appendOutputNumbers();
+  }
+  else {
+    appendOutput("span#error", "<p>There's been an error. Please make sure you've entered valid numbers.</p>")
+  }
   clearValues();
 }
 

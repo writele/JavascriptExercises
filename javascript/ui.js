@@ -3,6 +3,15 @@ function getValue(id) {
   return value;
 }
 
+function isValid(number) {
+  if(!isNaN(number) && number !== "") {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
 function appendOutput(element, variable) {
   $(element).append(variable);
 }

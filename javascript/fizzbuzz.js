@@ -1,4 +1,3 @@
-
 var numberInput1;
 var numberInput2;
 var fizzbuzzOutput;
