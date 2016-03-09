@@ -32,8 +32,22 @@ function getValues() {
   numberInput2 = getValue("number2");
 }
 
+function isValid(number) {
+  if(!isNaN(number) && number > 0 && number <= 100) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
 function runProgram() {
   clearOutput("#fizzbuzzOutput");
   getValues();
-  fizzbuzz(numberInput1, numberInput2, numbers);
+  if (isValid(numberInput1) && isValid(numberInput2)) {
+    fizzbuzz(numberInput1, numberInput2, numbers);
+  }
+  else {
+    appendOutput("#fizzbuzzOutput", "<p>There's been an error. Please make sure you've entered two numbers, each between 1 and 100!</p>")
+  }
 }

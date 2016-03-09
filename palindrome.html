@@ -29,12 +29,24 @@
 </head>
 <body>
 
+    <header>
+    <nav>
+      <span class="title">Javascript Exercises</span>
+      <ul>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="factorial.html">Factorial</a></li>
+        <li><a href="fizzbuzz.html">Fizzbuzz</a></li>
+        <li><a href="palindrome.html" class="active">Palindrome</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
       <div class="one-half column input">
-        <h4>Enter Your Word</h4>
+        <h4>Enter A Word</h4>
         <form id="NumberInput" action="#" method="post">
           <label for="number1">Word:</label>
           <input type="text" id="word" name="word" value="" />
@@ -43,7 +55,7 @@
         </form>
       </div>
       <div class="one-half column output">
-        <h4>Palindrome</h4>
+        <h4>Is It A Palindrome?</h4>
         <div id="palindromeOutput">
         </div>
       </div>

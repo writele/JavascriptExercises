@@ -1,0 +1,52 @@
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.title {
+  display: inline-block;
+  padding: 20px 50px 20px 30px;
+}
+
+nav {
+  font-size: 1.5em;
+  border-bottom: 5px solid #000;
+  margin-bottom: 25px;
+  height: 75px;
+  background-color: #f2f4f7;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+.active {
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .title {
+    padding: 10px;
+    display: block;
+  }
+
+  nav {
+    text-align: center;
+    font-size: 1.2em;
+    height: 100px;
+  }
+
+  nav ul li {
+    padding: 5px 10px;
+  }
+  
+}

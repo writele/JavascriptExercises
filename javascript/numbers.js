@@ -91,7 +91,7 @@ function appendOutputNumbers() {
 }
 
 function runProgram() {
-  clearOutput();
+  clearOutputNumbers();
   getValues();
   pushValuestoArray();
   setOutput();

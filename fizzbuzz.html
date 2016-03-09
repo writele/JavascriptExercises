@@ -29,12 +29,24 @@
 </head>
 <body>
 
+    <header>
+    <nav>
+      <span class="title">Javascript Exercises</span>
+      <ul>
+        <li><a href="numbers.html">Numbers</a></li>
+        <li><a href="factorial.html">Factorial</a></li>
+        <li><a href="fizzbuzz.html" class="active">Fizzbuzz</a></li>
+        <li><a href="palindrome.html">Palindrome</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
       <div class="one-half column input">
-        <h4>Enter Your Number</h4>
+        <h5>Enter two numbers between 1 and 100.</h5>
         <form id="NumberInput" action="#" method="post">
           <label for="number1">Number:</label>
           <input type="number" min="1" max="100" step="1" id="number1" name="number1" value="" />
@@ -45,7 +57,7 @@
         </form>
       </div>
       <div class="one-half column output">
-        <h4>Fizzbuzz</h4>
+        <h5>Fizzbuzz</h5>
         <div id="fizzbuzzOutput">
         </div>
       </div>
